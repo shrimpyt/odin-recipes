@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: sans-serif
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+ol {
+    text-align: left;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.menu {
+    text-align: left;
+}

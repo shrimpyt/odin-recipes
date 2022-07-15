@@ -1,7 +1,10 @@
 body {
-    background-color: beige;
-    text-align: center;
-    font-family: sans-serif
+    color: #565676;
+    text-align: left;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: #AEADF0;
+    float:inherit;
+    text-decoration: none;
 }
 
 ul {
@@ -9,14 +12,67 @@ ul {
     text-align: left;
 }
 
-ol {
-    text-align: left;
-}
-
 .title {
     text-transform: uppercase;
+    margin:inherit;
+    color:#565676;
+    font-size: 30px;
 }
 
+.title.main {
+    color:#565676;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.title.spacing {
+    padding-top: 45px;
+}
+
+a:link, a:visited, a:hover, a:active .title {
+    text-decoration: none;
+}
+.menu a:link, a:visited {
+    text-decoration: none;
+    border-color:#A76571;
+    border-style: outset;
+    border-width: 6px;
+    color: #565676;
+    font-weight: bold;
+    padding-top: 10px;
+    height: 45px;
+    width: 120px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.menu a:hover, a:active {
+    background-color: #565676;
+    color: #A76571;
+}
+
+.main_image {
+    height:300px;
+    width:300px;
+    object-fit: cover;
+    float:left;
+    padding: 15px 15px;
+
+}
+.logo{
+    height:300px;
+    width:300px;
+    object-fit: cover;
+    float:left;
+
+}
 .menu {
-    text-align: left;
+    float:left;
+}
+
+.recipes {
+    float:left;
+    padding: 5px;
+    width:60%;
 }
